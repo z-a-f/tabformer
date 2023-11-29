@@ -1,0 +1,3 @@
+[submodule "tab-transformer"]
+	path = third-party/tab-transformer
+	url = https://github.com/lucidrains/tab-transformer-pytorch
