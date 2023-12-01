@@ -1,3 +1,6 @@
 [submodule "tab-transformer"]
 	path = third-party/tab-transformer
 	url = https://github.com/lucidrains/tab-transformer-pytorch
+[submodule "third-party/tab-llm"]
+	path = third-party/tab-llm
+	url = https://github.com/clinicalml/TabLLM
