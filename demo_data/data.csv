@@ -1,8 +1,8 @@
-page_protocol,page_host,api_protocol,api_host,api_path,api_method,psm,scope,field_name,field_path,field_sample,data_type_name
-https,market-au.example.com,https,market-au.example.com,/api/v1/product/prohibited/words/check,post,oec.product.product_api,query,browser_language,browser_language,en-US,Language
-https,market-au.example.com,https,market-au.example.com,/api/v1/product/prohibited/words/check,post,oec.product.product_api,query,browser_language,browser_language,en-US,Language
-https,market-au.example.com,https,market-au.example.com,/api/v1/product/prohibited/words/check,post,oec.product.product_api,query,browser_language,browser_language,en-US,Language
-https,market-au.example.com,https,open-api.example.com,/v0/oauth/check_qr,get,abcd.openapi.gateway,query,token,token,abcd_aueast3,Account Setting
-https,market-au.example.com,https,open-api.example.com,/v0/oauth/check_qr,get,abcd.openapi.gateway,query,token,token,wxyz_aueast3,Account Setting
-https,market-au.example.com,https,market-au.example.com,/api/v1/product/list/seller/warehouses,get,oec.product.product_api,query,browser_version,browser_version,5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36,User Agent
-https,market-au.example.com,https,market-au.example.com,/api/v1/seller/holiday_mode/list,get,oec.seller.profile_api,query,locale,locale,en,Language
+page_protocol,page_host,api_protocol,api_host,api_path,api_method,psm,scope,field_name,field_path,field_sample,data_type_name,some_cat_column,some_num_column,some_float_column
+https,market-au.example.com,https,market-au.example.com,/api/v1/product/prohibited/words/check,post,oec.product.product_api,query,browser_language,browser_language,en-US,Language,1,3,-0.3
+https,market-au.example.com,https,market-au.example.com,/api/v1/product/prohibited/words/check,post,oec.product.product_api,query,browser_language,browser_language,en-US,Language,2,2,-0.2
+https,market-au.example.com,https,market-au.example.com,/api/v1/product/prohibited/words/check,post,oec.product.product_api,query,browser_language,browser_language,en-US,Language,1,1,-0.1
+https,market-au.example.com,https,open-api.example.com,/v0/oauth/check_qr,get,abcd.openapi.gateway,query,token,token,abcd_aueast3,Account Setting,3,0,0
+https,market-au.example.com,https,open-api.example.com,/v0/oauth/check_qr,get,abcd.openapi.gateway,query,token,token,wxyz_aueast3,Account Setting,1,1,0.2
+https,market-au.example.com,https,market-au.example.com,/api/v1/product/list/seller/warehouses,get,oec.product.product_api,query,browser_version,browser_version,5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F120.0.0.0%20Safari%2F537.36,User Agent,5,2,0.4
+https,market-au.example.com,https,market-au.example.com,/api/v1/seller/holiday_mode/list,get,oec.seller.profile_api,query,locale,locale,en,Language,8,3,0.6
